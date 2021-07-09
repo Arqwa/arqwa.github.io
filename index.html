@@ -2,16 +2,29 @@
   <head>
     <title>Arqwa</title>
   </head>
-  <div id="navigation">
+  <div class="container">
+  <div class="col">
+    <p style="background-color:white; margin: 20px"><h1><b>Arqwa</b></h1></p>
+  </div>
+  <div class="col">
+    <p style="background-color:black; height: 400px; color: white">In work</p>
+  </div>
   </div>
   <style>
     body {
+      font-family: "Lucida Console", "Courier New", monospace;
       margin: 0px;
+      padding:0;
+      height:100%;
+      border:none
     }
-    #navigation {
-      background-color: #0F0F0F;
+    .container {
+      display: table;
       width: 100%;
-      height: 50px;
-      }
+    }
+    .col {
+      display: table-cell;
+      width:50%;
+    }
   </style>
 </html>
